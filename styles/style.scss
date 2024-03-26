@@ -9,15 +9,7 @@ $color-border: #E1E5EB;
 $color-stroke-grey: #77829E;
 $color-fill-grey: #F2F6FF;
 
-@font-face {
-  font-family: Gothman Pro;
-  src: url("../font/1756-font.ttf");
-}
-@font-face {
-  font-weight: 700; /* Соответствует значению bold */
-  font-family: Gothman;
-  src: url("../font/gotham_pa5B3/Gotham/Gotham/Bold/");
-}
+
 @mixin flex-row {
 	display: flex;
 	justify-content: center;
@@ -36,7 +28,7 @@ $color-fill-grey: #F2F6FF;
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Gotham Pro', sans-serif;
+	
 }
 .wrapper {
 	min-width: 1600px;
